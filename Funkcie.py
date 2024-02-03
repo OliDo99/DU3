@@ -7,6 +7,7 @@ def count_file(search_word_count,total_search_word_count):
             word_count = file.read().lower().count(search_word_count)
             total_search_word_count = total_search_word_count + word_count
             file.close()
+            
             print(f"Pocet vyskytu hladaneho slova v subore {filename} : {word_count}")
     return total_search_word_count
 
