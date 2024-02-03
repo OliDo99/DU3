@@ -10,9 +10,8 @@ def count_file(search_word_count,total_search_word_count):
             print(f"Pocet vyskytu hladaneho slova v subore {filename} : {word_count}")
     return total_search_word_count
 
-
 def print_file(total_search_word_count):
     print(f"Pocet vyskytu hladaneho slova vo vsetkych suboroch : {total_search_word_count}")
 
 def Main():
-    print_file(total_search_word_count = count_file(input('Enter the word: '),0))
+    print_file(total_search_word_count = count_file(input('Enter the word: '),0)) 
